@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Itim', cursive;
+    background-image: radial-gradient(#FCFF33, #007991);
+}
+
+img{margin-top: 3rem;}
+
+.doge{
+    font-size: 6rem;
+    color: #170A1C;
+    background-color: rgba($color: #FCFF33, $alpha: 0.5);
+    border-radius: 10rem;
+    @media (max-width:768px) {
+        font-size: 3.5rem;
+    }
+}
+
+.doge-text{
+    font-size: 3rem;
+    text-align: center;
+    @media (max-width:768px) {
+        font-size: 2rem;
+    }
+
+}
